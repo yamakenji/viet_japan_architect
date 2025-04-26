@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- GDP Growth Rate Comparison Chart -->
+  <g transform="translate(60, 30)">
+    <text x="270" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#2563eb">アジア各国のGDP成長率比較 (%)</text>
+    
+    <!-- Vietnam 2023 -->
+    <rect x="0" y="195" width="80" height="205" fill="#dc2626" />
+    <text x="40" y="185" text-anchor="middle" font-size="18" font-weight="bold">5.05%</text>
+    <text x="40" y="425" text-anchor="middle" font-size="16">ベトナム (2023)</text>
+    
+    <!-- Vietnam 2024 -->
+    <rect x="90" y="130" width="80" height="270" fill="#ef4444" />
+    <text x="130" y="120" text-anchor="middle" font-size="18" font-weight="bold">6.7%</text>
+    <text x="130" y="425" text-anchor="middle" font-size="16">ベトナム (2024予測)</text>
+    
+    <!-- China -->
+    <rect x="180" y="192" width="80" height="208" fill="#2563eb" />
+    <text x="220" y="182" text-anchor="middle" font-size="18" font-weight="bold">5.2%</text>
+    <text x="220" y="425" text-anchor="middle" font-size="16">中国</text>
+    
+    <!-- Japan -->
+    <rect x="270" y="324" width="80" height="76" fill="#1e40af" />
+    <text x="310" y="314" text-anchor="middle" font-size="18" font-weight="bold">1.9%</text>
+    <text x="310" y="425" text-anchor="middle" font-size="16">日本</text>
+    
+    <!-- Thailand -->
+    <rect x="360" y="328" width="80" height="72" fill="#047857" />
+    <text x="400" y="318" text-anchor="middle" font-size="18" font-weight="bold">1.8%</text>
+    <text x="400" y="425" text-anchor="middle" font-size="16">タイ</text>
+    
+    <!-- South Korea -->
+    <rect x="450" y="348" width="80" height="52" fill="#0e7490" />
+    <text x="490" y="338" text-anchor="middle" font-size="18" font-weight="bold">1.3%</text>
+    <text x="490" y="425" text-anchor="middle" font-size="16">韓国</text>
+    
+    <!-- Y-axis -->
+    <line x1="-10" y1="400" x2="-10" y2="100" stroke="#666" stroke-width="2" />
+    <text x="-30" y="400" text-anchor="end" font-size="16">0</text>
+    <text x="-30" y="300" text-anchor="end" font-size="16">2.5</text>
+    <text x="-30" y="200" text-anchor="end" font-size="16">5.0</text>
+    <text x="-30" y="100" text-anchor="end" font-size="16">7.5</text>
+  </g>
+  
+  <!-- Programmer Age Distribution Pie Chart -->
+  <g transform="translate(800, 250)">
+    <text x="0" y="-170" text-anchor="middle" font-size="24" font-weight="bold" fill="#2563eb">プログラマーの年齢分布</text>
+    
+    <!-- 56% slice (20-29 years old) -->
+    <path d="M 0 0 L 150 0 A 150 150 0 0 1 -83.49 125.04 Z" fill="#dc2626" />
+    <text x="50" y="-50" text-anchor="middle" fill="white" font-size="20" font-weight="bold">56%</text>
+    <text x="50" y="-20" text-anchor="middle" fill="white" font-size="18">20～29歳</text>
+    
+    <!-- 44% slice (other ages) -->
+    <path d="M 0 0 L -83.49 125.04 A 150 150 0 1 1 150 0 Z" fill="#9ca3af" />
+    <text x="-50" y="70" text-anchor="middle" fill="white" font-size="20" font-weight="bold">44%</text>
+    <text x="-50" y="100" text-anchor="middle" fill="white" font-size="18">その他</text>
+  </g>
+  
+  <!-- IT Industry Key Facts -->
+  <g transform="translate(600, 550)">
+    <rect x="-550" y="0" width="1100" height="120" rx="10" fill="#f3f4f6" stroke="#2563eb" stroke-width="2" />
+    <text x="0" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e3a8a">ベトナムIT産業の主要統計</text>
+    
+    <text x="-450" y="70" font-size="18">• IT人材規模: <tspan font-weight="bold" fill="#dc2626">53万人超</tspan></text>
+    <text x="-150" y="70" font-size="18">• GDP成長率 (2023): <tspan font-weight="bold" fill="#dc2626">5.05%</tspan></text>
+    <text x="200" y="70" font-size="18">• GDP予測 (2024): <tspan font-weight="bold" fill="#dc2626">6.55～6.95%</tspan></text>
+    <text x="0" y="100" font-size="18">• 若いエンジニア: <tspan font-weight="bold" fill="#dc2626">プログラマーの56%が20～29歳</tspan></text>
+  </g>
+</svg>
