@@ -330,4 +330,3 @@ table {
 * **柔軟性**：固定的なモデルでなく、状況に応じた適応
 * **共通目標**：技術的卓越性とビジネス成功の両立
 
-![bg right:30% opacity:0.3](https://via.placeholder.com/500)
