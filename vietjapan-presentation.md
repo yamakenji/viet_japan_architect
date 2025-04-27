@@ -35,6 +35,35 @@ style: |
   .name {
     font-size: 22px;
   }
+
+    /* lead クラスのカスタマイズ */
+  section.lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  
+  section.lead h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  
+  section.lead h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  
+  section.lead p, section.lead li {
+    font-size: 32px;
+  }
+  
+  /* オプション: 背景色や区切り線でさらに目立たせる */
+  section.lead {
+    background-color: #f0f8ff; /* 薄い青色の背景 */
+    border-top: 4px solid #2563eb; /* 上部に青いアクセントライン */
+  }
 ---
 
 <!-- _class: lead -->
@@ -234,7 +263,6 @@ style: |
 
 ---
 
-<!-- _class: lead -->
 ## まとめ
 
 * ベトナムIT産業は成長段階：実装からアーキテクチャ設計へ
@@ -244,6 +272,21 @@ style: |
 * 若いエンジニアこそ、広い視野を持ったアーキテクトを目指そう
 
 ---
+
+## ご案内
+現職の会社でお寿司をもぐもぐしながら交流するMeetupをやるので興味があったら来てほしいです！
+※途中参加/入退場自由、服装自由、参加費なし
+■日時：5月15日(木)18:00～20:00
+■場所：WeWork 半蔵門PREX North 2F
+■内容
+お寿司をもぐもぐ/お酒をぐびぐびながら、カジュアルに **プテロン・コンサルティング** と交流する会
+少しでも興味があったら、下記URLよりエントリーお願いいたします！
+
+■エントリーフォーム
+・https://forms.office.com/r/0iYs5T55xX
+
+
+----
 
 <!-- _class: lead -->
 # ご清聴ありがとうございました
@@ -256,7 +299,7 @@ style: |
 APPENDIX
 # アーキテクト育成の課題と対応方法
 
-![bg right:30% opacity:0.3](https://via.placeholder.com/500)
+
 
 ---
 
@@ -322,7 +365,7 @@ table {
 
 ---
 
-<!-- _class: lead -->
+
 ## 成功への鍵
 
 * **相互理解と尊重**：一方的な関係ではなく、互いの強みを活かす
